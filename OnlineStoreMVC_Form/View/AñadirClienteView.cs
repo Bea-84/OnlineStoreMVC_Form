@@ -58,18 +58,19 @@ namespace OnlineStoreMVC_Form.View
         private void btAceptar_Click(object sender, EventArgs e)
         {
             //botón aceptar
-            Hashtable clienteHash=new Hashtable();
+            Hashtable clienteHash = new Hashtable();
 
-            if(this.textBoxemail.Text != "" && this.textBoxemail.Text != "")
+            if (this.textBoxemail.Text != "" && this.textBoxemail.Text != "")
             {
-                clienteHash.Add("Email",this.textBoxemail.Text);
+                clienteHash.Add("Email", this.textBoxemail.Text);
                 clienteHash.Add("Nombre", this.textBoxNombre.Text);
                 clienteHash.Add("Domicilio", this.textBoxdomicilio.Text);
                 clienteHash.Add("Nif", this.textBoxnif.Text);
 
                 clienteController.añadirClientes2(clienteHash);
 
-                MessageBox.Show("Bienvenido a Online Store, alta cliente realizada con éxito"); 
+                MessageBox.Show("Bienvenido a Online Store, alta cliente realizada con éxito");
+                
             }
             else
             {
@@ -77,7 +78,9 @@ namespace OnlineStoreMVC_Form.View
                 this.lbMensaje.Visible = true;
             }
 
-            borrarDatos(); 
+            borrarDatos();
+            
+
         }
 
         private void btCancelar_Click(object sender, EventArgs e)
@@ -105,5 +108,37 @@ namespace OnlineStoreMVC_Form.View
             this.textBoxnif.Text = "";
             this.lbMensaje.Visible = false;
         }
-    }
+
+        private void textBoxnif_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if(e.KeyChar==Convert.ToChar(Keys.Enter)) //si al presionar tecla es igual a enter
+            {
+                Hashtable clienteHash = new Hashtable();
+
+                if (this.textBoxemail.Text != "" && this.textBoxemail.Text != "")
+                {
+                    clienteHash.Add("Email", this.textBoxemail.Text);
+                    clienteHash.Add("Nombre", this.textBoxNombre.Text);
+                    clienteHash.Add("Domicilio", this.textBoxdomicilio.Text);
+                    clienteHash.Add("Nif", this.textBoxnif.Text);
+
+                    clienteController.añadirClientes2(clienteHash);
+
+                    MessageBox.Show("Bienvenido a Online Store, alta cliente realizada con éxito");
+                }
+                else
+                {
+                    this.lbMensaje.Text = "No hay datos";
+                    this.lbMensaje.Visible = true;
+                }
+
+                borrarDatos();
+            }
+        }
+
+        private void AñadirClienteView_Load(object sender, EventArgs e)
+        {
+            
+        }
+    } 
 }

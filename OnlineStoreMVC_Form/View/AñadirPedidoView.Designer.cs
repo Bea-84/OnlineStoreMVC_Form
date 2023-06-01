@@ -65,9 +65,10 @@
             this.lbAñadirPedido.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbAñadirPedido.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbAñadirPedido.ForeColor = System.Drawing.Color.Violet;
-            this.lbAñadirPedido.Location = new System.Drawing.Point(49, 68);
+            this.lbAñadirPedido.Location = new System.Drawing.Point(65, 84);
+            this.lbAñadirPedido.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbAñadirPedido.Name = "lbAñadirPedido";
-            this.lbAñadirPedido.Size = new System.Drawing.Size(182, 35);
+            this.lbAñadirPedido.Size = new System.Drawing.Size(228, 43);
             this.lbAñadirPedido.TabIndex = 0;
             this.lbAñadirPedido.Text = "Añadir pedido:";
             // 
@@ -77,17 +78,19 @@
             this.lbemail.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbemail.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbemail.ForeColor = System.Drawing.Color.Violet;
-            this.lbemail.Location = new System.Drawing.Point(49, 151);
+            this.lbemail.Location = new System.Drawing.Point(65, 186);
+            this.lbemail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbemail.Name = "lbemail";
-            this.lbemail.Size = new System.Drawing.Size(147, 25);
+            this.lbemail.Size = new System.Drawing.Size(187, 31);
             this.lbemail.TabIndex = 1;
             this.lbemail.Text = "Indique su email:";
             // 
             // textBoxemail
             // 
-            this.textBoxemail.Location = new System.Drawing.Point(326, 156);
+            this.textBoxemail.Location = new System.Drawing.Point(435, 192);
+            this.textBoxemail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxemail.Name = "textBoxemail";
-            this.textBoxemail.Size = new System.Drawing.Size(142, 20);
+            this.textBoxemail.Size = new System.Drawing.Size(188, 22);
             this.textBoxemail.TabIndex = 2;
             this.textBoxemail.TextChanged += new System.EventHandler(this.textBoxemail_TextChanged);
             // 
@@ -97,9 +100,10 @@
             this.lbmensajeCliente.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbmensajeCliente.Font = new System.Drawing.Font("Calibri", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbmensajeCliente.ForeColor = System.Drawing.Color.Violet;
-            this.lbmensajeCliente.Location = new System.Drawing.Point(521, 156);
+            this.lbmensajeCliente.Location = new System.Drawing.Point(695, 192);
+            this.lbmensajeCliente.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbmensajeCliente.Name = "lbmensajeCliente";
-            this.lbmensajeCliente.Size = new System.Drawing.Size(154, 28);
+            this.lbmensajeCliente.Size = new System.Drawing.Size(197, 35);
             this.lbmensajeCliente.TabIndex = 3;
             this.lbmensajeCliente.Text = "Cliente ya existe";
             this.lbmensajeCliente.Visible = false;
@@ -111,17 +115,19 @@
             this.lbCodigoArt.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbCodigoArt.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbCodigoArt.ForeColor = System.Drawing.Color.Violet;
-            this.lbCodigoArt.Location = new System.Drawing.Point(49, 217);
+            this.lbCodigoArt.Location = new System.Drawing.Point(65, 267);
+            this.lbCodigoArt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbCodigoArt.Name = "lbCodigoArt";
-            this.lbCodigoArt.Size = new System.Drawing.Size(197, 25);
+            this.lbCodigoArt.Size = new System.Drawing.Size(251, 31);
             this.lbCodigoArt.TabIndex = 4;
             this.lbCodigoArt.Text = "Indique codigo artículo:";
             // 
             // textBoxcodigoArt
             // 
-            this.textBoxcodigoArt.Location = new System.Drawing.Point(326, 222);
+            this.textBoxcodigoArt.Location = new System.Drawing.Point(435, 273);
+            this.textBoxcodigoArt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxcodigoArt.Name = "textBoxcodigoArt";
-            this.textBoxcodigoArt.Size = new System.Drawing.Size(142, 20);
+            this.textBoxcodigoArt.Size = new System.Drawing.Size(188, 22);
             this.textBoxcodigoArt.TabIndex = 5;
             this.textBoxcodigoArt.TabIndexChanged += new System.EventHandler(this.textBoxcodigoArt_TextChanged);
             this.textBoxcodigoArt.TextChanged += new System.EventHandler(this.textBoxcodigoArt_TextChanged_1);
@@ -132,9 +138,10 @@
             this.lbmensajeArt.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbmensajeArt.Font = new System.Drawing.Font("Calibri", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbmensajeArt.ForeColor = System.Drawing.Color.Violet;
-            this.lbmensajeArt.Location = new System.Drawing.Point(521, 215);
+            this.lbmensajeArt.Location = new System.Drawing.Point(695, 265);
+            this.lbmensajeArt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbmensajeArt.Name = "lbmensajeArt";
-            this.lbmensajeArt.Size = new System.Drawing.Size(163, 28);
+            this.lbmensajeArt.Size = new System.Drawing.Size(208, 35);
             this.lbmensajeArt.TabIndex = 6;
             this.lbmensajeArt.Text = "Artículo ya existe";
             this.lbmensajeArt.Visible = false;
@@ -153,9 +160,10 @@
             this.panel1.Controls.Add(this.lbDomicilio);
             this.panel1.Controls.Add(this.lbNombre);
             this.panel1.Controls.Add(this.lbAlta);
-            this.panel1.Location = new System.Drawing.Point(830, 156);
+            this.panel1.Location = new System.Drawing.Point(1107, 192);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(400, 232);
+            this.panel1.Size = new System.Drawing.Size(533, 286);
             this.panel1.TabIndex = 7;
             this.panel1.Visible = false;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
@@ -165,9 +173,10 @@
             this.btSaliralta.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btSaliralta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btSaliralta.ForeColor = System.Drawing.Color.Violet;
-            this.btSaliralta.Location = new System.Drawing.Point(298, 196);
+            this.btSaliralta.Location = new System.Drawing.Point(397, 241);
+            this.btSaliralta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btSaliralta.Name = "btSaliralta";
-            this.btSaliralta.Size = new System.Drawing.Size(75, 23);
+            this.btSaliralta.Size = new System.Drawing.Size(100, 28);
             this.btSaliralta.TabIndex = 9;
             this.btSaliralta.Text = "Salir";
             this.btSaliralta.UseVisualStyleBackColor = false;
@@ -178,9 +187,10 @@
             this.buttonbtcancelatalta.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.buttonbtcancelatalta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonbtcancelatalta.ForeColor = System.Drawing.Color.Violet;
-            this.buttonbtcancelatalta.Location = new System.Drawing.Point(158, 196);
+            this.buttonbtcancelatalta.Location = new System.Drawing.Point(211, 241);
+            this.buttonbtcancelatalta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonbtcancelatalta.Name = "buttonbtcancelatalta";
-            this.buttonbtcancelatalta.Size = new System.Drawing.Size(75, 23);
+            this.buttonbtcancelatalta.Size = new System.Drawing.Size(100, 28);
             this.buttonbtcancelatalta.TabIndex = 8;
             this.buttonbtcancelatalta.Text = "Borrar Datos";
             this.buttonbtcancelatalta.UseVisualStyleBackColor = false;
@@ -191,9 +201,10 @@
             this.btaceptaralta.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btaceptaralta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btaceptaralta.ForeColor = System.Drawing.Color.Violet;
-            this.btaceptaralta.Location = new System.Drawing.Point(31, 197);
+            this.btaceptaralta.Location = new System.Drawing.Point(41, 242);
+            this.btaceptaralta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btaceptaralta.Name = "btaceptaralta";
-            this.btaceptaralta.Size = new System.Drawing.Size(75, 23);
+            this.btaceptaralta.Size = new System.Drawing.Size(100, 28);
             this.btaceptaralta.TabIndex = 7;
             this.btaceptaralta.Text = "Aceptar";
             this.btaceptaralta.UseVisualStyleBackColor = false;
@@ -201,25 +212,29 @@
             // 
             // textBoxnif
             // 
-            this.textBoxnif.Location = new System.Drawing.Point(187, 145);
+            this.textBoxnif.Location = new System.Drawing.Point(249, 178);
+            this.textBoxnif.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxnif.Name = "textBoxnif";
-            this.textBoxnif.Size = new System.Drawing.Size(100, 20);
+            this.textBoxnif.Size = new System.Drawing.Size(132, 22);
             this.textBoxnif.TabIndex = 6;
             this.textBoxnif.TextChanged += new System.EventHandler(this.textBoxnif_TextChanged);
+            this.textBoxnif.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxnif_KeyPress);
             // 
             // textBoxdomicilio
             // 
-            this.textBoxdomicilio.Location = new System.Drawing.Point(187, 110);
+            this.textBoxdomicilio.Location = new System.Drawing.Point(249, 135);
+            this.textBoxdomicilio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxdomicilio.Name = "textBoxdomicilio";
-            this.textBoxdomicilio.Size = new System.Drawing.Size(100, 20);
+            this.textBoxdomicilio.Size = new System.Drawing.Size(132, 22);
             this.textBoxdomicilio.TabIndex = 5;
             this.textBoxdomicilio.TextChanged += new System.EventHandler(this.textBoxdomicilio_TextChanged);
             // 
             // textBoxnombre
             // 
-            this.textBoxnombre.Location = new System.Drawing.Point(187, 77);
+            this.textBoxnombre.Location = new System.Drawing.Point(249, 95);
+            this.textBoxnombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxnombre.Name = "textBoxnombre";
-            this.textBoxnombre.Size = new System.Drawing.Size(100, 20);
+            this.textBoxnombre.Size = new System.Drawing.Size(132, 22);
             this.textBoxnombre.TabIndex = 4;
             this.textBoxnombre.TextChanged += new System.EventHandler(this.textBoxnombre_TextChanged);
             // 
@@ -229,9 +244,10 @@
             this.lbNif.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbNif.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbNif.ForeColor = System.Drawing.Color.Violet;
-            this.lbNif.Location = new System.Drawing.Point(31, 145);
+            this.lbNif.Location = new System.Drawing.Point(41, 178);
+            this.lbNif.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbNif.Name = "lbNif";
-            this.lbNif.Size = new System.Drawing.Size(35, 21);
+            this.lbNif.Size = new System.Drawing.Size(42, 26);
             this.lbNif.TabIndex = 3;
             this.lbNif.Text = "Nif:";
             // 
@@ -241,9 +257,10 @@
             this.lbDomicilio.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbDomicilio.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbDomicilio.ForeColor = System.Drawing.Color.Violet;
-            this.lbDomicilio.Location = new System.Drawing.Point(31, 111);
+            this.lbDomicilio.Location = new System.Drawing.Point(41, 137);
+            this.lbDomicilio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbDomicilio.Name = "lbDomicilio";
-            this.lbDomicilio.Size = new System.Drawing.Size(79, 21);
+            this.lbDomicilio.Size = new System.Drawing.Size(97, 26);
             this.lbDomicilio.TabIndex = 2;
             this.lbDomicilio.Text = "Domicilio:";
             // 
@@ -253,9 +270,10 @@
             this.lbNombre.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbNombre.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbNombre.ForeColor = System.Drawing.Color.Violet;
-            this.lbNombre.Location = new System.Drawing.Point(31, 79);
+            this.lbNombre.Location = new System.Drawing.Point(41, 97);
+            this.lbNombre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbNombre.Name = "lbNombre";
-            this.lbNombre.Size = new System.Drawing.Size(71, 21);
+            this.lbNombre.Size = new System.Drawing.Size(86, 26);
             this.lbNombre.TabIndex = 1;
             this.lbNombre.Text = "Nombre:";
             // 
@@ -265,9 +283,10 @@
             this.lbAlta.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbAlta.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbAlta.ForeColor = System.Drawing.Color.Violet;
-            this.lbAlta.Location = new System.Drawing.Point(27, 27);
+            this.lbAlta.Location = new System.Drawing.Point(36, 33);
+            this.lbAlta.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbAlta.Name = "lbAlta";
-            this.lbAlta.Size = new System.Drawing.Size(286, 21);
+            this.lbAlta.Size = new System.Drawing.Size(351, 26);
             this.lbAlta.TabIndex = 0;
             this.lbAlta.Text = "Siga las instrucciones para darse de alta:";
             // 
@@ -277,9 +296,10 @@
             this.lbInstruccion.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbInstruccion.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbInstruccion.ForeColor = System.Drawing.Color.Violet;
-            this.lbInstruccion.Location = new System.Drawing.Point(45, 293);
+            this.lbInstruccion.Location = new System.Drawing.Point(60, 361);
+            this.lbInstruccion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbInstruccion.Name = "lbInstruccion";
-            this.lbInstruccion.Size = new System.Drawing.Size(423, 28);
+            this.lbInstruccion.Size = new System.Drawing.Size(548, 35);
             this.lbInstruccion.TabIndex = 8;
             this.lbInstruccion.Text = "Siga las instrucciones para seguir con el pedido:";
             // 
@@ -289,17 +309,19 @@
             this.lbNumPed.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbNumPed.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbNumPed.ForeColor = System.Drawing.Color.Violet;
-            this.lbNumPed.Location = new System.Drawing.Point(45, 377);
+            this.lbNumPed.Location = new System.Drawing.Point(60, 464);
+            this.lbNumPed.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbNumPed.Name = "lbNumPed";
-            this.lbNumPed.Size = new System.Drawing.Size(207, 25);
+            this.lbNumPed.Size = new System.Drawing.Size(263, 31);
             this.lbNumPed.TabIndex = 9;
             this.lbNumPed.Text = "Su numero de pedido es:";
             // 
             // textBoxNumPedido
             // 
-            this.textBoxNumPedido.Location = new System.Drawing.Point(326, 382);
+            this.textBoxNumPedido.Location = new System.Drawing.Point(435, 470);
+            this.textBoxNumPedido.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxNumPedido.Name = "textBoxNumPedido";
-            this.textBoxNumPedido.Size = new System.Drawing.Size(142, 20);
+            this.textBoxNumPedido.Size = new System.Drawing.Size(188, 22);
             this.textBoxNumPedido.TabIndex = 10;
             this.textBoxNumPedido.TextChanged += new System.EventHandler(this.textBoxNumPedido_TextChanged);
             // 
@@ -309,17 +331,19 @@
             this.lbunidades.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbunidades.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbunidades.ForeColor = System.Drawing.Color.Violet;
-            this.lbunidades.Location = new System.Drawing.Point(45, 446);
+            this.lbunidades.Location = new System.Drawing.Point(60, 549);
+            this.lbunidades.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbunidades.Name = "lbunidades";
-            this.lbunidades.Size = new System.Drawing.Size(91, 25);
+            this.lbunidades.Size = new System.Drawing.Size(117, 31);
             this.lbunidades.TabIndex = 11;
             this.lbunidades.Text = "Unidades:";
             // 
             // textBoxunidades
             // 
-            this.textBoxunidades.Location = new System.Drawing.Point(326, 446);
+            this.textBoxunidades.Location = new System.Drawing.Point(435, 549);
+            this.textBoxunidades.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxunidades.Name = "textBoxunidades";
-            this.textBoxunidades.Size = new System.Drawing.Size(142, 20);
+            this.textBoxunidades.Size = new System.Drawing.Size(188, 22);
             this.textBoxunidades.TabIndex = 12;
             this.textBoxunidades.TextChanged += new System.EventHandler(this.textBoxunidades_TextChanged);
             // 
@@ -329,9 +353,10 @@
             this.lbfecha.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbfecha.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbfecha.ForeColor = System.Drawing.Color.Violet;
-            this.lbfecha.Location = new System.Drawing.Point(45, 511);
+            this.lbfecha.Location = new System.Drawing.Point(60, 629);
+            this.lbfecha.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbfecha.Name = "lbfecha";
-            this.lbfecha.Size = new System.Drawing.Size(122, 25);
+            this.lbfecha.Size = new System.Drawing.Size(155, 31);
             this.lbfecha.TabIndex = 13;
             this.lbfecha.Text = "Fecha Pedido:";
             // 
@@ -340,9 +365,10 @@
             this.btAceptar.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btAceptar.ForeColor = System.Drawing.Color.Violet;
-            this.btAceptar.Location = new System.Drawing.Point(177, 584);
+            this.btAceptar.Location = new System.Drawing.Point(236, 719);
+            this.btAceptar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btAceptar.Name = "btAceptar";
-            this.btAceptar.Size = new System.Drawing.Size(75, 23);
+            this.btAceptar.Size = new System.Drawing.Size(100, 28);
             this.btAceptar.TabIndex = 15;
             this.btAceptar.Text = "Aceptar";
             this.btAceptar.UseVisualStyleBackColor = false;
@@ -353,9 +379,10 @@
             this.btCancelar.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btCancelar.ForeColor = System.Drawing.Color.Violet;
-            this.btCancelar.Location = new System.Drawing.Point(368, 584);
+            this.btCancelar.Location = new System.Drawing.Point(491, 719);
+            this.btCancelar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btCancelar.Name = "btCancelar";
-            this.btCancelar.Size = new System.Drawing.Size(100, 23);
+            this.btCancelar.Size = new System.Drawing.Size(133, 28);
             this.btCancelar.TabIndex = 16;
             this.btCancelar.Text = "Borrar Datos";
             this.btCancelar.UseVisualStyleBackColor = false;
@@ -366,9 +393,10 @@
             this.btSalir.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btSalir.ForeColor = System.Drawing.Color.Violet;
-            this.btSalir.Location = new System.Drawing.Point(1155, 584);
+            this.btSalir.Location = new System.Drawing.Point(1540, 719);
+            this.btSalir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btSalir.Name = "btSalir";
-            this.btSalir.Size = new System.Drawing.Size(75, 23);
+            this.btSalir.Size = new System.Drawing.Size(100, 28);
             this.btSalir.TabIndex = 17;
             this.btSalir.Text = "Salir";
             this.btSalir.UseVisualStyleBackColor = false;
@@ -376,17 +404,19 @@
             // 
             // dateTimecalendario
             // 
-            this.dateTimecalendario.Location = new System.Drawing.Point(326, 511);
+            this.dateTimecalendario.Location = new System.Drawing.Point(435, 629);
+            this.dateTimecalendario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dateTimecalendario.Name = "dateTimecalendario";
-            this.dateTimecalendario.Size = new System.Drawing.Size(142, 20);
+            this.dateTimecalendario.Size = new System.Drawing.Size(188, 22);
             this.dateTimecalendario.TabIndex = 18;
+            this.dateTimecalendario.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.dateTimecalendario_KeyPress);
             // 
             // AñadirPedidoView
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(1273, 643);
+            this.ClientSize = new System.Drawing.Size(1697, 791);
             this.Controls.Add(this.dateTimecalendario);
             this.Controls.Add(this.btSalir);
             this.Controls.Add(this.btCancelar);
@@ -405,6 +435,7 @@
             this.Controls.Add(this.textBoxemail);
             this.Controls.Add(this.lbemail);
             this.Controls.Add(this.lbAñadirPedido);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "AñadirPedidoView";
             this.Text = "AñadirPedidoView";
             this.Load += new System.EventHandler(this.AñadirPedidoView_Load);

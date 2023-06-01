@@ -98,6 +98,32 @@ namespace OnlineStoreMVC_Form.View
             this.Dispose();
         }
 
+        private void textBoxnif_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == Convert.ToChar(Keys.Enter))
+            {
+                Hashtable clienteHash = new Hashtable();
+
+                if (this.textBoxemail.Text != "" && this.textBoxemail.Text != "")
+                {
+                    clienteHash.Add("Email", this.textBoxemail.Text);
+                    clienteHash.Add("Nombre", this.textBoxnombre.Text);
+                    clienteHash.Add("Domicilio", this.textBoxdomicilio.Text);
+                    clienteHash.Add("Nif", this.textBoxnif.Text);
+
+                    pedidoController.añadirClientes2(clienteHash);
+                    MessageBox.Show("Bienvenido a Online Store, alta cliente realizada con éxito");
+                }
+                else
+                {
+                    this.lbmensajeCliente.Text = "No hay datos";
+                    this.lbmensajeCliente.Visible = true;
+                }
+
+                borrarDatospanel();
+            }
+        }
+
         //-------------------------------------------------------------------------------------------------
 
         private void textBoxcodigoArt_TextChanged(object sender, EventArgs e)
@@ -217,6 +243,32 @@ namespace OnlineStoreMVC_Form.View
         private void AñadirPedidoView_Load(object sender, EventArgs e)
         {
             this.textBoxNumPedido.Enabled = true;
+        }
+
+        private void dateTimecalendario_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if(e.KeyChar==Convert.ToChar(e.KeyChar))
+            {
+                Hashtable pedidoHash = new Hashtable();
+
+                if (this.textBoxNumPedido.Text != "" && this.textBoxNumPedido.Text != "")
+                {
+                    pedidoHash.Add("Numero pedido", this.textBoxNumPedido.Text);
+                    pedidoHash.Add("Unidades", this.textBoxunidades.Text);
+                    pedidoHash.Add("Fecha", this.dateTimecalendario.Text);
+                    pedidoHash.Add("Cliente", this.textBoxemail.Text);
+                    pedidoHash.Add("Articulo", this.textBoxcodigoArt.Text);
+
+                    pedidoController.añadirPedido2(pedidoHash);
+                    MessageBox.Show("Pedido realizado con éxito");
+                }
+                else
+                {
+                    MessageBox.Show("Ha sido imposible realizar el pedido");
+                }
+
+                borrarDatos();
+            }
         }
     }
 }

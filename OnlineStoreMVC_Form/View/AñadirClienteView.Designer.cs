@@ -53,9 +53,10 @@
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label1.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Violet;
-            this.label1.Location = new System.Drawing.Point(24, 38);
+            this.label1.Location = new System.Drawing.Point(32, 47);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(360, 28);
+            this.label1.Size = new System.Drawing.Size(466, 35);
             this.label1.TabIndex = 0;
             this.label1.Text = "Siga las instrucciones para darse de alta:";
             // 
@@ -65,9 +66,10 @@
             this.lbNombre.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbNombre.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbNombre.ForeColor = System.Drawing.Color.Violet;
-            this.lbNombre.Location = new System.Drawing.Point(19, 101);
+            this.lbNombre.Location = new System.Drawing.Point(25, 124);
+            this.lbNombre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbNombre.Name = "lbNombre";
-            this.lbNombre.Size = new System.Drawing.Size(91, 28);
+            this.lbNombre.Size = new System.Drawing.Size(117, 35);
             this.lbNombre.TabIndex = 1;
             this.lbNombre.Text = "Nombre:";
             // 
@@ -77,9 +79,10 @@
             this.lbDomicilio.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbDomicilio.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbDomicilio.ForeColor = System.Drawing.Color.Violet;
-            this.lbDomicilio.Location = new System.Drawing.Point(19, 152);
+            this.lbDomicilio.Location = new System.Drawing.Point(25, 187);
+            this.lbDomicilio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbDomicilio.Name = "lbDomicilio";
-            this.lbDomicilio.Size = new System.Drawing.Size(101, 28);
+            this.lbDomicilio.Size = new System.Drawing.Size(132, 35);
             this.lbDomicilio.TabIndex = 2;
             this.lbDomicilio.Text = "Domicilio:";
             // 
@@ -89,9 +92,10 @@
             this.lbNif.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbNif.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbNif.ForeColor = System.Drawing.Color.Violet;
-            this.lbNif.Location = new System.Drawing.Point(19, 201);
+            this.lbNif.Location = new System.Drawing.Point(25, 247);
+            this.lbNif.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbNif.Name = "lbNif";
-            this.lbNif.Size = new System.Drawing.Size(46, 28);
+            this.lbNif.Size = new System.Drawing.Size(58, 35);
             this.lbNif.TabIndex = 3;
             this.lbNif.Text = "Nif:";
             // 
@@ -101,41 +105,47 @@
             this.lbEmail.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbEmail.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbEmail.ForeColor = System.Drawing.Color.Violet;
-            this.lbEmail.Location = new System.Drawing.Point(40, 255);
+            this.lbEmail.Location = new System.Drawing.Point(53, 314);
+            this.lbEmail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbEmail.Name = "lbEmail";
-            this.lbEmail.Size = new System.Drawing.Size(67, 28);
+            this.lbEmail.Size = new System.Drawing.Size(86, 35);
             this.lbEmail.TabIndex = 4;
             this.lbEmail.Text = "Email:";
             // 
             // textBoxNombre
             // 
-            this.textBoxNombre.Location = new System.Drawing.Point(163, 107);
+            this.textBoxNombre.Location = new System.Drawing.Point(217, 132);
+            this.textBoxNombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxNombre.Name = "textBoxNombre";
-            this.textBoxNombre.Size = new System.Drawing.Size(100, 20);
+            this.textBoxNombre.Size = new System.Drawing.Size(132, 22);
             this.textBoxNombre.TabIndex = 5;
             this.textBoxNombre.TextChanged += new System.EventHandler(this.textBoxNombre_TextChanged);
             // 
             // textBoxdomicilio
             // 
-            this.textBoxdomicilio.Location = new System.Drawing.Point(163, 158);
+            this.textBoxdomicilio.Location = new System.Drawing.Point(217, 194);
+            this.textBoxdomicilio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxdomicilio.Name = "textBoxdomicilio";
-            this.textBoxdomicilio.Size = new System.Drawing.Size(100, 20);
+            this.textBoxdomicilio.Size = new System.Drawing.Size(132, 22);
             this.textBoxdomicilio.TabIndex = 6;
             this.textBoxdomicilio.TextChanged += new System.EventHandler(this.textBoxdomicilio_TextChanged);
             // 
             // textBoxnif
             // 
-            this.textBoxnif.Location = new System.Drawing.Point(163, 207);
+            this.textBoxnif.Location = new System.Drawing.Point(217, 255);
+            this.textBoxnif.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxnif.Name = "textBoxnif";
-            this.textBoxnif.Size = new System.Drawing.Size(100, 20);
+            this.textBoxnif.Size = new System.Drawing.Size(132, 22);
             this.textBoxnif.TabIndex = 7;
             this.textBoxnif.TextChanged += new System.EventHandler(this.textBoxnif_TextChanged);
+            this.textBoxnif.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxnif_KeyPress);
             // 
             // textBoxemail
             // 
-            this.textBoxemail.Location = new System.Drawing.Point(151, 261);
+            this.textBoxemail.Location = new System.Drawing.Point(201, 321);
+            this.textBoxemail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxemail.Name = "textBoxemail";
-            this.textBoxemail.Size = new System.Drawing.Size(100, 20);
+            this.textBoxemail.Size = new System.Drawing.Size(132, 22);
             this.textBoxemail.TabIndex = 8;
             this.textBoxemail.TextChanged += new System.EventHandler(this.textBoxemail_TextChanged);
             // 
@@ -144,9 +154,10 @@
             this.btAceptar.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btAceptar.ForeColor = System.Drawing.Color.Violet;
-            this.btAceptar.Location = new System.Drawing.Point(88, 277);
+            this.btAceptar.Location = new System.Drawing.Point(117, 341);
+            this.btAceptar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btAceptar.Name = "btAceptar";
-            this.btAceptar.Size = new System.Drawing.Size(75, 23);
+            this.btAceptar.Size = new System.Drawing.Size(100, 28);
             this.btAceptar.TabIndex = 9;
             this.btAceptar.Text = "Aceptar";
             this.btAceptar.UseVisualStyleBackColor = false;
@@ -157,9 +168,10 @@
             this.btCancelar.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btCancelar.ForeColor = System.Drawing.Color.Violet;
-            this.btCancelar.Location = new System.Drawing.Point(268, 277);
+            this.btCancelar.Location = new System.Drawing.Point(357, 341);
+            this.btCancelar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btCancelar.Name = "btCancelar";
-            this.btCancelar.Size = new System.Drawing.Size(75, 23);
+            this.btCancelar.Size = new System.Drawing.Size(100, 28);
             this.btCancelar.TabIndex = 10;
             this.btCancelar.Text = "Borrar Datos";
             this.btCancelar.UseVisualStyleBackColor = false;
@@ -170,9 +182,10 @@
             this.btSalir.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btSalir.ForeColor = System.Drawing.Color.Violet;
-            this.btSalir.Location = new System.Drawing.Point(923, 578);
+            this.btSalir.Location = new System.Drawing.Point(1231, 711);
+            this.btSalir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btSalir.Name = "btSalir";
-            this.btSalir.Size = new System.Drawing.Size(75, 23);
+            this.btSalir.Size = new System.Drawing.Size(100, 28);
             this.btSalir.TabIndex = 11;
             this.btSalir.Text = "Salir";
             this.btSalir.UseVisualStyleBackColor = false;
@@ -184,9 +197,10 @@
             this.lbMensaje.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbMensaje.Font = new System.Drawing.Font("Calibri", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbMensaje.ForeColor = System.Drawing.Color.Violet;
-            this.lbMensaje.Location = new System.Drawing.Point(298, 261);
+            this.lbMensaje.Location = new System.Drawing.Point(397, 321);
+            this.lbMensaje.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbMensaje.Name = "lbMensaje";
-            this.lbMensaje.Size = new System.Drawing.Size(154, 28);
+            this.lbMensaje.Size = new System.Drawing.Size(197, 35);
             this.lbMensaje.TabIndex = 12;
             this.lbMensaje.Text = "Cliente ya existe";
             this.lbMensaje.Visible = false;
@@ -203,9 +217,10 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.btAceptar);
             this.panel1.Controls.Add(this.textBoxnif);
-            this.panel1.Location = new System.Drawing.Point(588, 179);
+            this.panel1.Location = new System.Drawing.Point(784, 220);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(410, 329);
+            this.panel1.Size = new System.Drawing.Size(547, 405);
             this.panel1.TabIndex = 14;
             this.panel1.Visible = false;
             // 
@@ -215,9 +230,10 @@
             this.labelintroemail.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.labelintroemail.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelintroemail.ForeColor = System.Drawing.Color.Violet;
-            this.labelintroemail.Location = new System.Drawing.Point(40, 179);
+            this.labelintroemail.Location = new System.Drawing.Point(53, 220);
+            this.labelintroemail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelintroemail.Name = "labelintroemail";
-            this.labelintroemail.Size = new System.Drawing.Size(188, 28);
+            this.labelintroemail.Size = new System.Drawing.Size(242, 35);
             this.labelintroemail.TabIndex = 15;
             this.labelintroemail.Text = "Introduzca su email:";
             // 
@@ -227,18 +243,19 @@
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label2.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Violet;
-            this.label2.Location = new System.Drawing.Point(45, 93);
+            this.label2.Location = new System.Drawing.Point(60, 114);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(176, 35);
+            this.label2.Size = new System.Drawing.Size(220, 43);
             this.label2.TabIndex = 16;
             this.label2.Text = "Añadir Cliente";
             // 
             // AñadirClienteView
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(1094, 623);
+            this.ClientSize = new System.Drawing.Size(1459, 767);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.labelintroemail);
             this.Controls.Add(this.panel1);
@@ -246,8 +263,10 @@
             this.Controls.Add(this.btSalir);
             this.Controls.Add(this.textBoxemail);
             this.Controls.Add(this.lbEmail);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "AñadirClienteView";
             this.Text = "AñadirClienteView";
+            this.Load += new System.EventHandler(this.AñadirClienteView_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

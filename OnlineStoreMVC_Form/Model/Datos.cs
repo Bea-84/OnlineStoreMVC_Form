@@ -20,7 +20,9 @@ namespace OnlineStoreMVC_Form.Model
             pedidos = new List<Pedido>();
         }
 
-        //métodos artículos 
+        //métodos artículos
+
+     
 
         public string getDescripcionArticulo(string codigo)
         {

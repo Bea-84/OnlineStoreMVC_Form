@@ -117,6 +117,35 @@ namespace OnlineStoreMVC_Form.View
             this.lbMensaje.Visible=false; 
         }
 
-      
+        private void dateTimecalendario_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if(e.KeyChar==Convert.ToChar(Keys.Enter))
+            {
+                Hashtable articuloHash = new Hashtable();
+                if (this.textBoxcodigo.Text != "" && this.textBoxcodigo.Text != "")
+                {
+                    articuloHash.Add("Codigo", this.textBoxcodigo.Text);
+                    articuloHash.Add("Descripcion", this.textBoxdescripcion.Text);
+                    articuloHash.Add("Precio", this.textBoxprecio.Text);
+                    articuloHash.Add("Gastos", this.textBoxgastos.Text);
+                    articuloHash.Add("Tiempo", this.dateTimecalendario.Text);
+                    articuloController.añadirArticulo(articuloHash);
+                    MessageBox.Show("Artículo añadido con éxito");
+                }
+                else
+                {
+                    this.lbMensaje.Text = "No hay datos";
+                    this.lbMensaje.Visible = true;
+                }
+
+                borrarDatos();
+            }
+            
+        }
+
+        private void AñadirArticuloView_Load(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
